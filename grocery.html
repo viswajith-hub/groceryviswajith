@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind css</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="bg-[url(./image/bg.jpeg)] min-h-screen px-28 py-5">
+    <nav class="flex items-center">
+        <img class="w-30 cursor-pointer" src="https://img.magnific.com/premium-vector/groceries-icon-line-style-white-vector_989823-169.jpg" alt="logo">
+        <ul class="flex-2 text-center">
+            <li class="list-none inline-block" ><a class="text-white px-2" href="">home</a></li>
+             <li class="list-none inline-block"><a class="text-white px-2" href="">about</a></li>
+              <li class="list-none inline-block"><a class="text-white px-2" href="">features</a></li>
+               <li class="list-none inline-block"><a class="text-white px-2" href="">contact</a></li>
+        </ul>
+        <img class="w-10 cursor-pointer" src="https://static.vecteezy.com/system/resources/thumbnails/047/542/910/small_2x/shop-icon-symbol-design-illustration-vector.jpg" alt="cart">
+    </nav>
+    <div class="text-white lg:grid grid-cols-2 gap-4 mt-10 items-center text-center lg:text-start">
+        <div>
+            <h1 class="text-6xl font-semibold leading-normal mb-5">Groceries <br> Delivery in 10 minutes</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, et deserunt deleniti error quam, quaerat animi ipsam numquam, praesentium expedita pariatur. Harum fugit optio beatae quisquam. Beatae reiciendis dignissimos fugit!</p>
+            <div class="mt-10">
+                <a class="bg-yellow-400 py-3 px-8 rounded-3xl font-medium mr-5 border border-yellow-400 hover:bg-transparent" href="">0rder Now</a>
+                <a href="">Download app </a>
+            </div>
+        </div>
+        <div>
+            <img src="https://png.pngtree.com/thumb_back/fw800/background/20220601/pngtree-friendly-delivery-guy-brings-online-grocery-order-social-distance-virus-worker-photo-image_45948036.jpg" alt="">
+        </div>
+    </div>
+          <div class="my-10 text-white">
+            <h1 class="text-5xl text-center font-semibold">Popular groceries</h1>
+            <div class="lg:grid grid-cols-3 items-center gap-4 mt-10">
+                  <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0 transition-transform duration-300 hover:translate-y-3">
+                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB8gLSx8TOTam_TMP8pakxfcwyIEhGfmQL2v06RbVAw9yTurKuDm6jFaii&s=10" alt="">
+                       <h3 class="text-lg text-black font-medium">Grocery 1</h3>
+                  </div>
+                   <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0 transition-transform duration-300 hover:translate-y-3">
+                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB8gLSx8TOTam_TMP8pakxfcwyIEhGfmQL2v06RbVAw9yTurKuDm6jFaii&s=10" alt="">
+                       <h3 class="text-lg text-black font-medium">Grocery 2</h3>
+                  </div>
+                   <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0 transition-transform duration-300 hover:translate-y-3">
+                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB8gLSx8TOTam_TMP8pakxfcwyIEhGfmQL2v06RbVAw9yTurKuDm6jFaii&s=10" alt="">
+                       <h3 class="text-lg text-black font-medium">Grocery 3</h3>
+                  </div>
+            </div>
+          </div>
+
+          <div class="lg:grid grid-cols-4 text-white mb-10">
+            <div class="col-span-1">
+                 <h1 class="text-2xl font-semibold">contact us</h1>
+                 <p class="my-3">info@grocery.com</p>
+                 <p>+91-7306530157</p>
+            </div>
+            <div class="col-span-1">
+
+            </div>
+            <div class="col-span-2">
+                  <h1 class="text-2xl font-semibold">subscribe to our mailbox</h1>
+                  <div class="flex mt-3">
+                       <input class="p-2 border w-full text-gray-200 rounded" type="text" placeholder="e mail">
+                       <button class="bg-yellow-400 px-2 mx-2 rounded">subscribe</button>
+                  </div>
+            </div>
+          </div>
+          <footer class="text-white text-center p-3">
+            &copy;All Rights Are Reserved
+
+          </footer>
+    </div>
+</body>
+</html>
